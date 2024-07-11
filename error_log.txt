@@ -1,0 +1,43 @@
+Test set:
+
+Failed to augment 0600001_000001.json of type shift_scale_rotate
+Failed to augment 0600144_000003.json of type shift_scale_rotate_negative
+Failed to augment 0200071_000003.json of type shift_scale_rotate_negative
+Failed to augment 0600057_000002.json of type shift_scale_rotate
+Failed to augment 0700028_000003.json of type horizontal_flip
+Failed to augment 0700028_000003.json of type scale_down
+Failed to augment 0700028_000003.json of type shift_scale_rotate
+Failed to augment 0700028_000003.json of type shift_scale_rotate_negative
+Failed to augment 0700028_000003.json of type resize
+Failed to augment 0600079_000003.json of type shift_scale_rotate
+Failed to augment 0600079_000001.json of type shift_scale_rotate_negative
+Failed to augment 0600047_000003.json of type shift_scale_rotate
+
+Train set:
+
+Failed to augment 0600108_000001.json of type shift_scale_rotate
+Failed to augment 0300057_000002.json of type shift_scale_rotate_negative
+Failed to augment 0600076_000001.json of type shift_scale_rotate_negative
+Failed to augment 0600079_000002.json of type shift_scale_rotate
+Failed to augment 0600131_000002.json of type shift_scale_rotate
+Failed to augment 0600049_000002.json of type shift_scale_rotate
+Failed to augment 0600049_000002.json of type shift_scale_rotate_negative
+Failed to augment 0600057_000003.json of type shift_scale_rotate_negative
+Failed to augment 0600057_000001.json of type shift_scale_rotate_negative
+Failed to augment 0600105_000003.json of type shift_scale_rotate
+Failed to augment 0600131_000001.json of type shift_scale_rotate
+Failed to augment 0600131_000003.json of type shift_scale_rotate
+Failed to augment 0600003_000001.json of type shift_scale_rotate
+Failed to augment 0600076_000003.json of type shift_scale_rotate_negative
+Failed to augment 0400122_000001.json of type horizontal_flip
+Failed to augment 0400122_000001.json of type scale_down
+Failed to augment 0400122_000001.json of type shift_scale_rotate
+Failed to augment 0400122_000001.json of type shift_scale_rotate_negative
+Failed to augment 0400122_000001.json of type resize
+Failed to augment 0600039_000002.json of type shift_scale_rotate_negative
+Failed to augment 0600105_000001.json of type shift_scale_rotate_negative
+Failed to augment 0600047_000001.json of type shift_scale_rotate_negative
+
+0600076_000001_scale_down_augmented.json : invalid bbox (ymin, ymax both zero), due to vanish roller
+Problem of augmentation: either vanish or duplicate the roller, making the dataset invalid
+Some files in the original dataset have invalid data already
